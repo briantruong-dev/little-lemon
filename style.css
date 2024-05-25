@@ -1,0 +1,96 @@
+body {
+    background: beige;
+}
+
+.container {
+    padding: 20px;
+}
+
+.banner {
+    text-align: center;
+}
+
+.logo {
+    height: 200px;
+}
+
+.nav-list {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    gap: 15px;
+    background: #ff7f50a3;
+    border-radius: 5px;
+}
+
+.nav-item > .link {
+    display: block;
+    text-decoration: none;
+    color: brown;
+    font-size: 24px;
+    padding: 17px 0;
+}
+
+.discount-section {
+    position: relative;
+    display: flex;
+    gap: 10px;
+    color: white;
+    justify-content: center;
+}
+
+.discount-section > .text {
+    position: absolute;
+    background: blueviolet;
+    padding: 3px 10px;
+    border-radius: 16px;
+    width: 400px;
+    text-align: center;
+}
+
+.discount-section > .img {
+    width: 30%;
+    border-radius: 20px;
+}
+
+.main {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.card {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  background: azure;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+/* Add some padding inside the card container */
+.card-container {
+  padding: 2px 16px;
+}
+
+.card-link {
+    display: block;
+    margin-bottom: 15px;
+}
+
+.footer-container {
+    display: flex;
+    position: relative;
+}
+
+.copyright {
+    margin-left: auto;
+    margin-left: auto;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
